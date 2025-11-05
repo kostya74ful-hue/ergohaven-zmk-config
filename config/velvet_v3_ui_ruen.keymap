@@ -177,10 +177,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans    &kp LC(F)  &trans     &kp LG(LS(S))                           &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &mo 7   &mkp MB3  &mkp MB2   &mkp MB1   &mo 8                                   &mo 8   &mkp MB1  &mkp MB2  &mkp MB3  &mo 7   &trans
-&trans  &trans  &trans    &trans     &trans     &trans                                  &trans  &trans    &trans    &trans    &trans  &trans
-                &trans    &trans     &kp LC(V)  &kp RC(C)      &kp LG(SPACE)    &trans  &trans  &trans    &trans    &trans
+&trans  &kp LG(SPACE)  &trans    &kp LC(F)  &trans     &kp LG(LS(S))                    &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &mo 7          &mkp MB3  &mkp MB2   &mkp MB1   &mo 8                            &mo 8   &mkp MB1  &mkp MB2  &mkp MB3  &mo 7   &trans
+&trans  &trans         &trans    &trans     &trans     &trans                           &trans  &trans    &trans    &trans    &trans  &trans
+                       &trans    &trans     &kp LC(V)  &kp RC(C)      &trans    &trans  &trans  &trans    &trans    &trans
             >;
 
             display-name = "Mouse";
